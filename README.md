@@ -13,29 +13,17 @@ meteor add clinical:router
 ````
 
 ===============================
-#### Environment Variables  
+#### Route Prefixes
 
-This will detect and use the following environment variables.
-
-````
-ROOT_URL_PATH_PREFIX
-ROOT_URL
-````
-
-===============================
-#### Usage  
-
-Specify the environment variables when you launch your application...
+You can add a route prefix by specifying a suffix in the ``ROOT_URL``, like so:
 
 ````bash
-ROOT_URL_PATH_PREFIX=CRF ROOT_URL=medbook.uscs.edu meteor
+ROOT_URL="http://localhost:3000/admin" meteor
 ````
 
-And your application will use the variables as it's Url path to the application.  
+All subsequent routes will be available on the ``/admin`` prefix.  
 
-````bash
-http://medbook.ucsc.edu/CRF/
-````
+
 
 ===============================
 #### Licensing  

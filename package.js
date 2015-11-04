@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'clinical:url',
+  name: 'clinical:router-url',
   summary: 'Url utilities and support for compiling a url into a regular expression.',
   version: '2.0.13',
-  git: 'https://github.com/clinical-meteor/clinical-url'
+  git: 'https://github.com/clinical-meteor/clinical-router-url'
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.2');
+  api.versionsFrom('1.1.0.2');
 
   api.use('underscore');
 
