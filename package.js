@@ -18,7 +18,7 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use('clinical:url');
+  api.use('clinical:router-surl');
   api.use('tinytest');
   api.use('test-helpers');
   api.add_files('test/url_test.js', ['client', 'server']);
