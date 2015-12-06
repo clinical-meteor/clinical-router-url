@@ -1,7 +1,7 @@
 Package.describe({
   name: 'clinical:router-url',
   summary: 'Url utilities and support for compiling a url into a regular expression.',
-  version: '2.0.13',
+  version: '2.0.14',
   git: 'https://github.com/clinical-meteor/clinical-router-url'
 });
 
