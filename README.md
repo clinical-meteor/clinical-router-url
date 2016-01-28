@@ -28,4 +28,4 @@ All subsequent routes will be available on the ``/admin`` prefix.
 ===============================
 #### Licensing  
 
-MIT.  Use as you will.
+![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)
