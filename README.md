@@ -2,6 +2,7 @@ Iron Url
 ==================
 Url utilities and support for compiling a url into a regular expression.
 
+[![Circle CI](https://circleci.com/gh/clinical-meteor/router-url/tree/master.svg?style=svg)](https://circleci.com/gh/clinical-meteor/router-url/tree/master)
 
 ===============================
 #### Installation  
