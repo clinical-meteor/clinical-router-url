@@ -24,7 +24,16 @@ ROOT_URL="http://localhost:3000/admin" meteor
 
 All subsequent routes will be available on the ``/admin`` prefix.  
 
+===============================
+#### Generating URL Paths
 
+````js
+//http://mydomain.com
+Meteor.absoluteUrl.defaultOptions.rootUrl = "http://mydomain.com"
+
+//http://mydomain.com/foo
+Meteor.absoluteUrl("/foo", {});
+````
 
 ===============================
 #### Licensing  
