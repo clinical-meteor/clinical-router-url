@@ -12,7 +12,7 @@ describe('clinical:router-url', function () {
   it('Router should exist on the server', function () {
     return server.execute(function () {
       //expect(typeof Router).to.equal("undefined");
-      expect(Url).to.exist;
+      expect(Url).to.not.exist;
     });
   });
 });
