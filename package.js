@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('1.1.0.2');
+  api.versionsFrom('METEOR@1.1.0.3');
 
   api.use('underscore');
 
@@ -15,6 +15,8 @@ Package.on_use(function (api) {
 
   api.add_files('lib/compiler.js');
   api.add_files('lib/url.js');
+
+  api.export('Url', 'client');
 });
 
 Package.on_test(function (api) {

@@ -1,31 +1,18 @@
-// 
-// describe('clinical:router-url', function () {
-//   var server = meteor();
-//   var client = browser(server);
-//
-//   beforeEach(function () {
-//     server.execute(function () {
-//
-//     }).then(function (value){
-//
-//     });
-//   });
-//   afterEach(function () {
-//     server.execute(function () {
-//
-//     });
-//   });
-//
-//   it('Router should exist on the client', function () {
-//     return client.execute(function () {
-//       // expect(Router).to.exist;
-//     });
-//   });
-//
-//   it('Router should exist on the server', function () {
-//     return server.execute(function () {
-//       //expect(typeof Router).to.equal("undefined");
-//       expect(Router).to.exist;
-//     });
-//   });
-// });
+
+describe('clinical:router-url', function () {
+  var server = meteor();
+  var client = browser(server);
+
+  it('Router should exist on the client', function () {
+    return client.execute(function () {
+      expect(Url).to.exist;
+    });
+  });
+
+  it('Router should exist on the server', function () {
+    return server.execute(function () {
+      //expect(typeof Router).to.equal("undefined");
+      expect(Url).to.exist;
+    });
+  });
+});
