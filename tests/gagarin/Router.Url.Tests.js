@@ -12,7 +12,7 @@ describe('clinical:router-url', function () {
   it('Url should be undefined on the server', function () {
     return server.execute(function () {
       //expect(typeof Router).to.equal("undefined");
-      expect(Url).to.equal("undefined");
+      expect(typeof Url).to.equal("undefined");
     });
   });
 });
